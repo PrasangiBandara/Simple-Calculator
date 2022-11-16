@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homepage" prefHeight="450.0" prefWidth="500.0" style="-fx-background-color: #2d2d2c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField fx:id="input1" alignment="CENTER_RIGHT" layoutX="30.0" layoutY="38.0" prefHeight="53.0" prefWidth="218.0" promptText="Input Number 1" style="-fx-background-color: #ffffff; -fx-border-radius: 5px;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="input2" alignment="CENTER_RIGHT" layoutX="250.0" layoutY="38.0" prefHeight="53.0" prefWidth="218.0" promptText="Input Number 2" style="-fx-background-color: #ffffff; -fx-border-radius: 5px;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Label fx:id="output" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="97.0" prefHeight="75.0" prefWidth="440.0" style="-fx-background-color: #42423f;" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="add" layoutX="30.0" layoutY="206.0" mnemonicParsing="false" onAction="#calculateAddition" prefHeight="110.0" prefWidth="110.0" style="-fx-background-color: #42423f; -fx-border-color: #2d2d2c;" text="+" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="sub" alignment="CENTER" layoutX="140.0" layoutY="206.0" mnemonicParsing="false" onAction="#calculateSubstraction" prefHeight="110.0" prefWidth="110.0" style="-fx-background-color: #42423f; -fx-border-color: #2d2d2c;" text="-" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="mul" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="206.0" mnemonicParsing="false" onAction="#calculateMultiplication" prefHeight="110.0" prefWidth="110.0" style="-fx-background-color: #42423f; -fx-border-color: #2d2d2c;" text="*" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="div" alignment="CENTER" layoutX="360.0" layoutY="206.0" mnemonicParsing="false" onAction="#calculateDivision" prefHeight="110.0" prefWidth="110.0" style="-fx-background-color: #42423f; -fx-border-color: #2d2d2c;" text="/" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="sin" alignment="CENTER" layoutX="30.0" layoutY="316.0" mnemonicParsing="false" onAction="#calculateSin" prefHeight="110.0" prefWidth="110.0" style="-fx-background-color: #F54d32; -fx-border-color: #2d2d2c;" text="sin" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="cos" alignment="CENTER" layoutX="140.0" layoutY="316.0" mnemonicParsing="false" onAction="#calculateCos" prefHeight="110.0" prefWidth="110.0" style="-fx-border-color: #2d2d2c; -fx-background-color: #F54d32;" text="cos" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="tan" contentDisplay="CENTER" layoutX="250.0" layoutY="316.0" mnemonicParsing="false" onAction="#calculateTan" prefHeight="110.0" prefWidth="110.0" style="-fx-border-color: #2d2d2c; -fx-background-color: #F54d32;" text="tan" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="exp" contentDisplay="CENTER" layoutX="360.0" layoutY="316.0" mnemonicParsing="false" onAction="#calculateExp" prefHeight="110.0" prefWidth="110.0" style="-fx-border-color: #2d2d2c; -fx-background-color: #46ad34;" text="Exp" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
