@@ -1,11 +1,11 @@
 # Simple-Calculator create using JavaFX
 
 Calculations:
-  1. Addition,
-  2. Subtraction,
-  3. Multiplication,
-  4. Division,
-  6. sin/cos/tan/Exponential funtions.
+    1. Addition
+    2. Subtraction
+    3. Multiplication
+    4. Division
+    6. sin/cos/tan/Exponential funtions
   
 
 Calculator Interface
